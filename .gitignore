@@ -6,4 +6,10 @@ node_modules
 
 .vercel
 
+dist/
+.env
+.env.local
+uploads/*
+!uploads/.gitkeep
+*.log
 render.yaml

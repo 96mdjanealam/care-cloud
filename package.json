@@ -15,6 +15,12 @@
     "stripe:webhook": "stripe listen --forward-to localhost:5000/webhook"
   },
   "devDependencies": {
+    "ts-node-dev": "^2.0.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^7.0.1",
+    "prisma": "^7.0.1",
+    "@prisma/adapter-pg": "^7.0.1",
     "@types/cookie-parser": "^1.4.9",
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
@@ -23,13 +29,7 @@
     "@types/node": "^24.0.10",
     "@types/nodemailer": "^6.4.17",
     "@types/pg": "^8.15.6",
-    "ts-node-dev": "^2.0.0",
-    "typescript": "^5.8.3"
-  },
-  "dependencies": {
-    "@prisma/client": "^7.0.1",
-    "prisma": "^7.0.1",
-    "@prisma/adapter-pg": "^7.0.1",
+    "typescript": "^5.8.3",
     "axios": "^1.11.0",
     "bcryptjs": "^3.0.2",
     "cloudinary": "^2.7.0",

@@ -33,7 +33,7 @@ const seedSuperAdmin = async () => {
             }
         });
 
-        console.log("Super Admin Created Successfully!", superAdminData);
+        console.log("Super ted Successfully!", superAdminData);
     }
     catch (err) {
         console.error(err);
